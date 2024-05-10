@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emile Botha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    
+</head>
+<body>
+    <nav id="desknav">
+        <div class="Logo">
+            Emile Botha
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <nav id="menu">
+        <div class="Logo">
+            Emile Botha
+        </div>
+        <div class="menu">
+            <div class="menu-icon" onclick="toggleMenu()">                
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="m-links">
+                <li>
+                    <a href="#about" onclick="toggleMenu()">About</a>
+                </li>
+                <li>
+                    <a href="#experience" onclick="toggleMenu()">Experience</a>
+                </li>
+                <li>
+                    <a href="#projects" onclick="toggleMenu()">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" onclick="toggleMenu()">Contact</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="photo-container">
+            <img src="./Assets/Face_1.png" alt="Me">
+        </div>
+            <div class="description">
+                <h1 class="Name">Emile Botha</h1>
+                <p class="p1">Belgium Campus 3rd year <br> Bachelor of computing <br> Software Engineering specialisation Student</p>
+                <div class="btn-container">
+                    <button class="btn btn-colour" onclick="window.open('Assets/Emile Botha CV.pdf')">Download CV</button>
+                    <button class="btn btn-colour" onclick="window.open('./Assets/AcademicPDF.pdf')">View Current Marks</button>
+                    <button class="btn btn-colour" onclick="location.href='./#contact'">Contact Information</button>
+                </div>
+                <div id="social">
+                    <img src="./Assets/linkedin.png" alt="linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/emile-botha-4a8253292/'">
+                    <img src="./Assets/github.png" alt="Github" class="icon" onclick="location.href='https://github.com/SheepyPrograms/'">
+                </div>
+            </div>
+            <img src="./Assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#about'">
+    </section>
+    
+    <section id="about">
+        <p class="p1">Get to know</p>
+        <h1 class="Name">About me</h1>
+        <div class="section-container">
+            <div class="photo-container">
+                <img src="./Assets/My face again.JPG" alt="me" class="about-photo">
+            </div>
+            <div class="about-container">
+                <div class="about">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png" alt="" class="icons" >
+                        <h3>Experience</h3>
+                        <p>2021 Chef at Genade Shoppie <br> 2021 Chef at Genade Plaas</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/education.png" alt="" class="icons">
+                        <h3>Education</h3>
+                        <p>2019 Graduated Matric</p> <br>
+                        <p>2020 Professional Cookery programme - NQF 4 SAQA ID: 102296</p> <br>
+                        <p>2022 - 2025 Soon to be Bachelor of Computing Graduate at Belgium Campus iTverisity</p> <br>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hi, I'm Emile a 24-year-old student enrolled at Belgium Campus ITversity in a 4-year bachelor of computing course passionately pursuing
+                        opportunities to expand my skill set. Motivated, adaptable, and highly responsible,
+                        I am eager to secure a position where I can learn and grow.
+                        I am excited about leveraging and learning better teamwork, and teamwork tools for better collaboration.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+    <section id="skills">
+        <p class="p1">Have a look at my</p>
+        <h1 class="Name">Skills</h1>
+        <div class="skills-container">
+            <div class="about">
+                <div class="details-container">
+                    <h2 class="skills-title">Programing</h2>
+                    <div class="article">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>Angular</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>NodeJS</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-title">Databasing</h2>
+                    <div class="article">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>MySql</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>Microsoft SQL server</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-title">Other</h2>
+                    <div class="article">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>UI/UX design</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>Software Testing</h3>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="p1">Have a look at my</p>
+        <h1 class="Name">Projects</h1>
+        <div class="skills-container">
+            <div class="about">
+                <div class="details-container colour-container">
+                    <div class="article">
+                        <img src="./Assets/BugTracking.png" alt="project1" class="project-img">
+                    </div>
+                    <h2 class="skills title">Project 1</h2>
+                    <p class="p1">A group project for tracking bugs by loging and monitoring bugs or errors</p>
+                    <div class="btn-container">
+                        <button class="btn btn-colour project-btn" onclick="location.href='https://github.com/bc-stud-577504/WPR281-ass2'">Github</button>
+                    </div>
+                </div>
+                <br>
+                <div class="details-container colour-container">
+                    <div class="article">
+                        <img src="./Assets/calculator.jpg" alt="project1" class="project-img">
+                    </div>
+                    <h2 class="skills title">Project 2</h2>
+                    <p class="p1">A Calculator made with C#</p>
+                    <div class="btn-container">
+                        <button class="btn btn-colour project-btn" onclick="location.href='https://github.com/SheepyPrograms/Calculator">Github</button>
+                    </div>
+                </div>
+                <br>
+                <div class="details-container colour-container">
+                    <div class="article">
+                        <img src="./Assets/Angular_Banner.jpg" alt="project1" class="project-img">
+                    </div>
+                    <h2 class="skills title">Project 3</h2>
+                    <p class="p1">A website I'm currently creating with Angular</p>
+                    <div class="btn-container">
+                        <button class="btn btn-colour project-btn" onclick="location.href='https://github.com/SheepyPrograms/gitCobusSite'">Github</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="p1">
+            Let's talk
+        </p>
+        <h1 class="Name">Contact me</h1>
+        <div class="contact-info">
+            <div class="contact-container">
+                <img src="./Assets/email.png" alt="email icon" class="icon contact-icon mail">
+                <p><a href="mailto:emilew.botha@gmail.com">emilew.botha@gmail.com</a></p>
+            </div>
+            <div class="contact-container">
+                <img src="./Assets/linkedin.png" alt="linkdin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/emile-botha-4a8253292/'">Linkdin</a></p>
+            </div>
+        </div>
+        <br>
+    </section>
+    <footer>
+        <nav>
+            <div class = "nav-links-container">
+                <ul class="nav-links">
+                    <li>
+                        <a href="#profile">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
